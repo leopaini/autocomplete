@@ -1,0 +1,56 @@
+h3.title {
+  color: #3d4551;
+  padding: 0 0 10px;
+  font-size: 1.125em;
+}
+
+.listMenu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 1em;
+  list-style: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  box-shadow: none !important;
+  border: 1px solid #ebebff;
+  transition: all 250ms ease-in-out !important;
+}
+
+.listMenu.loading {
+  display: flex;
+  min-height: 50px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3fa;
+}
+
+.listMenu .loader {
+  display: none;
+}
+
+.listMenu.loading .loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listMenu.loading .loader svg {
+  color: #7d74ff;
+}
+
+.listMenu.loading .loader .text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7d74ff;
+  padding-left: 10px;
+}
+
+.listMenu .listItem {
+  padding: 0.25em 0;
+}
+
+.listItem + .listItem,
+.listItem:first-of-type {
+  padding-right: 0.5em;
+}

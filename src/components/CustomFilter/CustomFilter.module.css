@@ -1,0 +1,17 @@
+.customForm {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5em;
+  max-width: 550px;
+  border-radius: 0.5em;
+  background: #f3f3fa;
+  flex-direction: column;
+  border: 1px solid #ebebff;
+}
+
+.customForm h3.title {
+  color: #3d4551;
+  font-size: 1.125em;
+  padding: 20px 0 10px;
+}

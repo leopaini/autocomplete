@@ -1,0 +1,22 @@
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label .city {
+  font-size: 14px;
+  color: #3d4551;
+  font-weight: 500;
+}
+
+.label .info {
+  font-size: 12px;
+  color: #8a8a8a;
+  font-weight: 400;
+}
+
+.label label em {
+  color: #7d74ff;
+  font-style: normal;
+  background-color: #ebebff;
+}

@@ -1,0 +1,17 @@
+.error {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+  color: #e63c49;
+  padding-right: 10px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #e63c49;
+}

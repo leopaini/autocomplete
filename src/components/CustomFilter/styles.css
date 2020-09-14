@@ -1,0 +1,74 @@
+.text-field .MuiInputBase-input.MuiOutlinedInput-input {
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.text-field .MuiInputBase-formControl fieldset {
+  border: 2px solid #ebebff;
+}
+
+.text-field .MuiOutlinedInput-root:hover fieldset {
+  border-color: #b5b0ff;
+}
+
+.text-field .MuiInputBase-formControl.Mui-focused fieldset {
+  border-color: #7d74ff;
+}
+
+.text-field label.MuiInputLabel-formControl {
+  color: #8a8a8a;
+}
+
+.text-field label.MuiInputLabel-formControl.Mui-focused {
+  color: #7d74ff;
+}
+
+.text-field .MuiInputBase-root {
+  color: #3d4551;
+}
+
+.form-control.MuiFormControl-root {
+  max-height: 250px;
+  border-radius: 4px;
+  overflow-y: scroll;
+  border: 1px solid #ebebff;
+}
+
+.form-control .form-label {
+  margin: 0;
+  height: 54px;
+  background: #ffffff;
+  border: 1px solid #ebebff;
+}
+
+.form-control .form-label:first-of-type {
+  border-radius: 4px 4px 0 0;
+}
+
+.form-control .form-label:last-of-type {
+  border-radius: 0 0 4px 4px;
+}
+
+.form-control .form-label .MuiIconButton-root .MuiSvgIcon-root {
+  color: #ebebff;
+  margin-right: 10px;
+}
+
+.form-control .form-label .MuiIconButton-root.Mui-checked .MuiSvgIcon-root {
+  color: #7d74ff;
+}
+
+.no-results {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aeb6c4;
+}
+
+.chip-item.MuiChip-root {
+  color: #7d74ff;
+  background-color: #ebebff;
+}
+
+.chip-item.MuiChip-root svg.MuiSvgIcon-root {
+  color: #7d74ff;
+}
